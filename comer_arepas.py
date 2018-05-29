@@ -1,6 +1,6 @@
 quiere_arepa_input = input("¿Quiere arepa?: Si/No ").upper()
 
-'quiero que el usuario siempre me diga que SI o que NO'
+# quiero que el usuario siempre me diga que SI o que NO
 
 if quiere_arepa_input == 'SI':
     quiere_arepa = True
