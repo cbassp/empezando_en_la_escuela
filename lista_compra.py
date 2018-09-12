@@ -4,7 +4,7 @@ input_usuario = ""
 
 while input_usuario != 'FIN':
     input_usuario = input('Que necesitas comprar?\nEscribe FIN para acabar: ').upper()
-    if input_usuario != 'FIN'
+    if input_usuario != 'FIN':
         mi_lista.append(input_usuario)
 
 largo_lista = len(mi_lista)
@@ -19,4 +19,4 @@ while indice_actual < largo_lista:
     #print('tengo que comprar {}'.format(item))
 #esto es lo mismo que recorrer la lista con un while.
 
- print('Esta es tu lista de la compra')
+print('Esta es tu lista de la compra')
