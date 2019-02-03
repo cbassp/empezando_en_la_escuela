@@ -1,4 +1,4 @@
-numero_para_adivinar = 4
+numero_para_adivinar = 5
 numero_del_usuario = int(input('Adivina el numero: '))
 
 if numero_para_adivinar == numero_del_usuario:
