@@ -13,7 +13,6 @@ tiene_platita_input = input("¿Tiene platita?: Si/No ").upper()
 esta_arepero_input = input("¿Esta el arepero?: Si/No ").upper()
 esta_escobar_input = input('¿Esta con Escobar?: Si/No ').upper()
 
-
 tiene_platita = tiene_platita_input == 'SI'
 esta_escobar = esta_escobar_input == 'SI'
 puede_permitirselo = tiene_platita or esta_escobar
@@ -23,3 +22,5 @@ if quiere_arepa and esta_arepero and puede_permitirselo:
     print('Tome su arepa pepiada.')
 else:
     print('Vayase.')
+
+# new commit
