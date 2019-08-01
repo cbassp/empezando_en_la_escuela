@@ -9,14 +9,14 @@ elif quiere_arepa_input == 'NO':
 else:
     print('No entiendo lo que me dice, respondea SI o NO. Esto lo tomare como un NO.')
 
-tiene_virutita_input = input("¿Tiene virutita?: Si/No ").upper()
+tiene_platita_input = input("¿Tiene platita?: Si/No ").upper()
 esta_arepero_input = input("¿Esta el arepero?: Si/No ").upper()
-esta_pablo_input = input('¿Esta con Pablo?: Si/No ').upper()
+esta_escobar_input = input('¿Esta con Escobar?: Si/No ').upper()
 
 
-tiene_virutita = tiene_virutita_input == 'SI'
-esta_pablo = esta_pablo_input == 'SI'
-puede_permitirselo = tiene_virutita or esta_pablo
+tiene_platita = tiene_platita_input == 'SI'
+esta_escobar = esta_escobar_input == 'SI'
+puede_permitirselo = tiene_platita or esta_escobar
 esta_arepero = esta_arepero_input == 'SI'
 
 if quiere_arepa and esta_arepero and puede_permitirselo:
